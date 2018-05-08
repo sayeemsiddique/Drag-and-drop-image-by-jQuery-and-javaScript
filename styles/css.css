@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.image-box {
+	width: 45%;
+	margin: auto;
+	background: linear-gradient(45deg, #d4081b70, #0000ff47);
+	border: 1px solid #0000ff47;
+	overflow: hidden;
+}
+
+img {
+	height: 100px;
+	width: auto;
+	margin: 20px auto;
+    padding: 0;
+    border: 2px solid #00800063;
+    border-radius: 50%;
+	display: block;
+	transition: .5s;
+}
+
+img:hover {
+	box-shadow:1px 1px 10px 1px grey;
+	cursor: pointer;
+}
+
+
+
+.sa {
+    float: left;
+	width: 33%;
+}
